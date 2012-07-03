@@ -68,7 +68,6 @@
     }
     
     [_backgroundImageView setImage:backgroundImage];
-    [self setBackgroundColor:[UIColor redColor]];
 }
 
 
