@@ -79,7 +79,7 @@
         [_backgroundImageView setContentMode:UIViewContentModeCenter];
         [_backgroundImageView setClipsToBounds:YES];
         
-        [self addSubview:_backgroundImageView];
+        [self insertSubview:_backgroundImageView atIndex:0];
         [_backgroundImageView release];
     }
     
